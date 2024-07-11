@@ -1,1 +1,1 @@
-web: gunicorn food_blog2.wsgi
+web: gunicorn food_fusion.wsgi
