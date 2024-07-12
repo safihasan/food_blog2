@@ -2,23 +2,25 @@
 {% block content %}
 {% load static %}
 <div class="container mt-5">
-  <div class="row">
-    <div class="col-4 text-center">
-      <img src="{% static 'images/gordon.jpg' %}" width="75%" />
-    </div>
-    <div class="col-8">
-      <!-- Title goes between these h2 tags -->
-      <h2>{{ about.title }}</h2>
-      <!-- Content goes directly underneath this -->
-      {{ about.content | safe }}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col text-right">
-      <!-- Updated on field goes in here -->
+    <div class="row">
+        <div class="col-4 text-center">
+            <img src="{% static 'images/gordon.jpg' %}" width="75%">
+        </div>
+        <div class="col-8">
+            <!-- Title goes between these h2 tags -->
+            <h2>
+                About Me
+            </h2>
+            <!-- Content goes directly underneath this -->
 
-      <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+Meet Gordon, the mastermind behind "Epicurean Adventures." With a refined palate and an unyielding passion for culinary excellence, Gordon has carved out a niche as a discerning food blogger. His blog is a treasure trove of insightful restaurant reviews, exquisite recipes, and gourmet tips, all delivered with a touch of elegance and a dash of wit. Whether he’s exploring hidden gems or critiquing fine dining establishments, Gordon’s expertise and dedication to perfection make him a trusted guide in the world of gastronomy. Join him on his culinary journey and discover a world where every bite is a masterpiece
+        </div>
     </div>
-  </div>
+    <div class="row">
+        <div class="col text-right">
+            <!-- Updated on field goes in here -->
+            <p class="text-end"><em>Updated on: </em></p>
+        </div>
+      </div>
 </div>
 {% endblock content %}
