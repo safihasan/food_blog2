@@ -1,26 +1,36 @@
 {% extends 'base.html' %}
-{% block content %}
 {% load static %}
+
+{% block content %}
 <div class="container mt-5">
     <div class="row">
-        <div class="col-4 text-center">
+        <div class="col-12 col-md-4 text-center">
             <img src="{% static 'images/gordon.jpg' %}" width="75%">
         </div>
-        <div class="col-8">
-            <!-- Title goes between these h2 tags -->
-            <h2>
-                About Me
-            </h2>
-            <!-- Content goes directly underneath this -->
-
-Meet Gordon, the mastermind behind "Epicurean Adventures." With a refined palate and an unyielding passion for culinary excellence, Gordon has carved out a niche as a discerning food blogger. His blog is a treasure trove of insightful restaurant reviews, exquisite recipes, and gourmet tips, all delivered with a touch of elegance and a dash of wit. Whether he’s exploring hidden gems or critiquing fine dining establishments, Gordon’s expertise and dedication to perfection make him a trusted guide in the world of gastronomy. Join him on his culinary journey and discover a world where every bite is a masterpiece
+        <div class="col-12 col-md-8">
+            <h2>{{ about.title }}</h2>
+            {{ about.content | safe }}
         </div>
     </div>
     <div class="row">
         <div class="col text-right">
-            <!-- Updated on field goes in here -->
-            <p class="text-end"><em>Updated on: </em></p>
+          <!-- Updated on field goes in here -->
+    
+          <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
         </div>
-      </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 my-5">
+            <h2>Let's collaborate!</h2>
+            <p>I believe in the power of shared knowledge and collective effort.
+                Whether you have a project in mind, wish to co-author
+                an article, or simply want to brainstorm some ideas,
+                I'm excited to hear from you. Fill out the form
+                and we can get the ball rolling!</p>
+
+            <!-- add your form here. Your submit button should 
+                                have the classes of btn, btn-secondary -->
+        </div>
+    </div>
 </div>
 {% endblock content %}
