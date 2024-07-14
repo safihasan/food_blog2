@@ -56,7 +56,7 @@ Gordon Ramsay is a renowned chef and television personality known for his culina
 ## Agile:
 This project was created using Agile principles via a projectboard on Github. This is the first time I have implemented Agile as an individual developer. However, creating user stories and identifying accepterance criteria acted as a roadmap to target the various features and functionalities of the application. It helped me stay on track and reduced distractions.
 
-![project board](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/98b7d24d-7234-4155-af15-df72403659f9)
+![project board](https://github.com/safihasan/food_blog2/blob/main/static/images/53B9389C-F8AD-43F6-8FE0-10F1B6B3898D.jpeg)
 
 
 # Design Choices:
@@ -132,13 +132,13 @@ It allows users to stay connected with the The Book Booth on social media platfo
 
 # Future Features:
 
-* Implement a review system so readers can share their thoughts about books that they have completed. This will give others a better idea of whether the book is a good fit for them. 
-* Display if a book is available with a status (Available, Not Available).
-*  Allow users to reserve a book beforehand.
-* A search engine where users can search for books by title, author and genre.
-* Provide locations of nearest libraries.
-* Provide a way for the users to engage and form a secure community.
-* Include an about page to inform others of how The Book Booth Library works and how to use it.
+* User Profiles and Follow System: Allow users to create detailed profiles and follow their favorite food bloggers to stay updated with their latest posts.
+* Recipe Ratings and Reviews: Implement a rating and review system for recipes, enabling users to provide feedback and share their cooking experiences.
+* Interactive Cooking Classes: Offer live or recorded cooking classes hosted by professional chefs and experienced home cooks.
+* Recipe Video Integration: Support for embedding videos within blog posts to provide visual cooking instructions and enhance user engagement.
+* Advanced Search and Filters: Introduce advanced search functionality with filters for dietary preferences, cuisine types, cooking difficulty, and more.
+* Ingredient List Management: Provide features for users to create and manage ingredient lists, including the ability to generate shopping lists from recipes.
+* Mobile Application: Develop a mobile app for iOS and Android to allow users to access and interact with the platform on the go.
 
 
 Database Design:
@@ -322,10 +322,10 @@ Add a book
 
 | Link | Expected Outcome | Grade |
 | ------- | ---------------- | ----- |
-| Logo | Navigates to the home page when clicked | Fail |
+| Logo | Navigates to the home page when clicked | Pass |
 | Home | Navigates to the home page when clicked | Pass |
-| Books | Navigates to a book list  page when clicked | Pass |
-| Add a Book | Navigates to a form to add a book when clicked | Pass |
+| Books | Navigates to a blogs list  page when clicked | Pass |
+| Add a Book | Navigates to a form to add a blog when clicked | Pass |
 | Register | Navigates to a registration form when clicked | Pass |
 | Log in | Navigates to a screen where users can log in when clicked | Pass |
 | Logout | Navigates to a page confirming for the user to log out | Pass |
@@ -341,7 +341,7 @@ Add a book
 | Add a book | Add a book to the book collection that will be available to borrow | Pass | ![addbook](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/82133f44-d43a-4f40-863a-f4e8970057aa)
 | Admin has access to crud functionality of all additions | Admin can edit or delete any book addition | Pass | ![admin testing](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/72df0b87-6d4f-4659-9d4f-5e986f88e16c)
 | Edit a book | A user can edit the details on the book that they have addded. It will update their addition on the books page | Pass | ![edit book ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/79f6de7e-fd14-4c34-a474-483b7cd5285f)
-| Delete a book | A user who added a book OR an admin can delete a book. It will then be deleted from the DB | Pass | ![delete book](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/88275723-e875-404a-b96f-58bac0a4907a)
+| Delete a blog | A user who added a blog OR an admin can delete a blog. It will then be deleted from the DB | Pass | ![delete book](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/88275723-e875-404a-b96f-58bac0a4907a)
 | Registration | New users can access a registration form from the "Register" link | Pass | ![testing sign up](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/e9e6c4e1-c90a-4854-a11c-014a8fc80043)
 | Log in | Users can log in using a form after clicking "Log in" | Pass | ![sign in testing ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/3fafee34-e6d6-4162-8989-faa78e1bf355)
 | Log out | Users get logged out after clicking "Log out" | Pass | ![testing sign out](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/d7d377aa-fc2d-4025-a73e-22d2d81c622a)
@@ -360,7 +360,7 @@ The technologies implemented in this application included HTML5, CSS, Bootstrap,
 * GitHub Pages used for hosting the deployed front-end site.
 * Gitpod used as a cloud-based IDE for development.
 * Bootstrap used as the front-end CSS framework for modern responsiveness and pre-built components.
-* ElephantSQL used as the Postgres database.
+* Postgres used as the DB.
 * Heroku used for hosting the deployed back-end site.
 * Cloudinary used for online static file storage.
 * Canva Utilized for collaborative design and prototyping(wireframes).
@@ -384,7 +384,7 @@ All the bugs that occured during the creation of this application have been reso
 
 # Credit: 
 
-* Although I used the django blog resources provided on the LMS, I also received alot of additional clarification by following along with django projects on YouTube. One of the vidoes I found especially helpful was : https://youtu.be/JzDBCZTgVyw?si=w3BBwJswUjBTm1xw
+* Although I used the django blog resources provided on the LMS.
 
 * Stack Overflow was used to solve any smaller bugs and further clarification on errors I was receiving in the terminal.
 
@@ -392,8 +392,8 @@ All the bugs that occured during the creation of this application have been reso
 
 * A special thanks to all the other indivudals in our cohort for their continuous support throughout the course.
 
-* The added book covers and details were taken from the Waterstones Website.
+* Gordon's photo was downloaded from the web.
 
 * Font Awesome was used for icons and the fonts used were derived from Google Fonts.
 
-* Wireframes, logo and flowcharts were created using Canva. 
+* Wireframes, logo and flowcharts were created using Lucid charts. 
