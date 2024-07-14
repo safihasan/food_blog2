@@ -83,8 +83,8 @@ Goudy Book Letter 1911
 
 ### Home Page:
 
-#### Navbar & Hero Image:
-![home](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/4f033ade-4485-40c2-ac2d-5fc5641b5cb7)
+#### Navbar:
+![home](###)
 
 The landing page provides an introduction to the website with a call to action button encouraging new users to sign up. Signing up and logging in allows them access to view blogs written by other bloggers and comment on them. It also allows them to post their own food blog. The navigation bar is valuable for users as it provides quick and easy access to important sections of the website. The navigation bar includes links to Home, blogs, sign up, Register/Logout and Sign In.
 
@@ -199,15 +199,13 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/hiboibrahim/thebookbooth1/main/run.py) | ![screenshot]![forms py](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/f299346f-bb44-43a2-a8a5-868373d753e3)
+| models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/safihasan/food_blog2/main/blog/models.py) | ![screenshot]![forms py](https://github.com/safihasan/food_blog2/blob/main/static/images/1FCFC449-C58F-4E5E-AE63-FFA2643FFF4A.jpeg)
+ | Pass: Some neglible errors |
+| settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/safihasan/food_blog2/main/food_fusion/settings.py) | ![screenshot]![settings py](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/7951202c-2d55-4adb-90d6-8fef0707c82c)
  | Pass: No Errors |
-| settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/hiboibrahim/thebookbooth1/main/boutique-ado/settings.py) | ![screenshot]![settings py](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/7951202c-2d55-4adb-90d6-8fef0707c82c)
- | Pass: No Errors |
-| Book views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/hiboibrahim/thebookbooth1/main/blog/views.py) | ![screenshot]![views py](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/4f545d53-b304-4600-b9fb-d4feb93b6c93)
- | Pass: No Errors |
-| Book urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/hiboibrahim/thebookbooth1/main/checkout/urls.py) | ![screenshot]![urls py](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/e3f52187-1f65-4171-b1ba-e9096d1b5fc0)
- | Pass: No Errors |
-|  models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/hiboibrahim/thebookbooth1/main/profiles/models.py) | ![screenshot]![models py](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/f3438ec1-f275-44b6-847d-48a93c0466ed)
+| Blog views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/safihasan/food_blog2/main/blog/views.py) | ![screenshot]![views py](https://github.com/safihasan/food_blog2/blob/main/static/images/F4930AD3-E43E-4BEB-86D5-667FDC46E71B.jpeg)
+ | Pass: 1 neglible error |
+| Blog urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/safihasan/food_blog2/main/blog/urls.py) | ![screenshot]![urls py](https://github.com/safihasan/food_blog2/blob/main/static/images/5009FA40-7EE1-4E5F-8E52-DFFA2C07A186.jpeg)
  | Pass: No Errors |
 
 # Responsiveness:
@@ -316,8 +314,8 @@ Add a book
 | ------- | ---------------- | ----- |
 | Logo | Navigates to the home page when clicked | Pass |
 | Home | Navigates to the home page when clicked | Pass |
-| Books | Navigates to a blogs list  page when clicked | Pass |
-| Add a Book | Navigates to a form to add a blog when clicked | Pass |
+| Blogs | Navigates to a blogs list  page when clicked | Pass |
+| Add a Blog | Navigates to a form to add a blog when clicked | Pass |
 | Register | Navigates to a registration form when clicked | Pass |
 | Log in | Navigates to a screen where users can log in when clicked | Pass |
 | Logout | Navigates to a page confirming for the user to log out | Pass |
@@ -329,16 +327,14 @@ Add a book
 | ------- | ---------------- | ----- | --------- |
 | Modal | A message will appear informing the user of a successful action | Pass | ![modal sign out ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/9e8658e8-f751-4cdf-be3d-ca19ad6c47b2)
 | User logged in | Text displays the user logged in with their username | Pass | ![modal sign in name](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/cc4a71db-9962-49c1-b4b6-563000687ad7)
-| View books | Users can see available books which have been added | Pass | ![testing books](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/01cc3a5b-db46-4742-a8e1-cf715d78c89b)
-| Add a book | Add a book to the book collection that will be available to borrow | Pass | ![addbook](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/82133f44-d43a-4f40-863a-f4e8970057aa)
+| View blogs | Users can see available books which have been added | Pass | ![testing blogs](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/01cc3a5b-db46-4742-a8e1-cf715d78c89b)
+| Add a blog | Add a book to the book collection that will be available to borrow | Pass | ![addblog](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/82133f44-d43a-4f40-863a-f4e8970057aa)
 | Admin has access to crud functionality of all additions | Admin can edit or delete any book addition | Pass | ![admin testing](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/72df0b87-6d4f-4659-9d4f-5e986f88e16c)
-| Edit a book | A user can edit the details on the book that they have addded. It will update their addition on the books page | Pass | ![edit book ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/79f6de7e-fd14-4c34-a474-483b7cd5285f)
+| Edit a blog | A user can edit the details on the blog that they have addded. It will update their addition on the blogs page | Pass | ![edit book ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/79f6de7e-fd14-4c34-a474-483b7cd5285f)
 | Delete a blog | A user who added a blog OR an admin can delete a blog. It will then be deleted from the DB | Pass | ![delete book](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/88275723-e875-404a-b96f-58bac0a4907a)
 | Registration | New users can access a registration form from the "Register" link | Pass | ![testing sign up](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/e9e6c4e1-c90a-4854-a11c-014a8fc80043)
 | Log in | Users can log in using a form after clicking "Log in" | Pass | ![sign in testing ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/3fafee34-e6d6-4162-8989-faa78e1bf355)
 | Log out | Users get logged out after clicking "Log out" | Pass | ![testing sign out](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/d7d377aa-fc2d-4025-a73e-22d2d81c622a)
-| Grid display | A CSS grid will display the books in a clear, responsive format | Pass | N/A
-| Functional buttons | Edit, delete, create buttons will be functional throughout the site | Pass | ![edit delete buttons](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/67cfb78d-7d5b-4072-8aa8-812b9c444b67)
 | Footer | A footer displays social information | Pass | ![footer](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/0879fada-18a4-4363-8257-0af0061cf79f)
 | Social links work | The social links will navigate to a new page when they're clicked. They will open in a new tab | Pass | ![footer](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/0879fada-18a4-4363-8257-0af0061cf79f)
 
