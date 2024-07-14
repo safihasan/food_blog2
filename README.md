@@ -69,7 +69,7 @@ Dark Green - Buttons
 
 #809977 - Footer
 
-The colours were selected with the intention of complementing the hero image and the idea was to ensure the image was appreciated.
+The colours were selected with the intention of complementing the food fusion blog and the idea was to ensure the image was appreciated.
 
 ## Typography:
  The following fonts were chosen for a clean and modern look that is both readable and minimal.
@@ -86,48 +86,36 @@ Goudy Book Letter 1911
 #### Navbar & Hero Image:
 ![home](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/4f033ade-4485-40c2-ac2d-5fc5641b5cb7)
 
-The landing page provides an introduction to the website with a call to action button encouraging new users to sign up. Signing up and logging in allows them access to view the available books and to add a book to the collection.
-The navigation bar is valuable for users as it provides quick and easy access to important sections of the website. The navigation bar includes links to Home, Books, Add a Book, Register/Logout and Sign In. Displaying a hero image using graphics are both aesthetic and a nod to the repurposed phone booths that have been transformed into local libraries around the world.
+The landing page provides an introduction to the website with a call to action button encouraging new users to sign up. Signing up and logging in allows them access to view blogs written by other bloggers and comment on them. It also allows them to post their own food blog. The navigation bar is valuable for users as it provides quick and easy access to important sections of the website. The navigation bar includes links to Home, blogs, sign up, Register/Logout and Sign In.
 
 
 #### Registration:
 
-Registration allows users to view the available books and the relevant book details at The Book Booth library. It allows them to add a book as well as edit and delete their addition to ensure the book collection available is updated regularly. 
+Registration allows users to view the blogs posted by them as well as by other bloggers. It allows them to add a blog as well as edit and delete their addition to ensure the food blog is updated regularly. 
 
-![signup](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/0b6b2b83-d426-4e63-805b-09a6dcdde550)
+![signup](###)
 
 
 
 #### Sign In:
 
-![sign-in](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/6a1d9a16-2211-4403-88a1-3ec1b506cef4)
+![sign-in](###)
 
 
-#### Books:
+#### Blogs:
 
-![books](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/54c96d8e-6bc3-403f-a8ad-1c4188b60a6e)
-
-
-#### Add a Book:
-
-![add a book](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/8e15c1d9-193f-4032-b147-0969c3b45bab)
+![books](###)
 
 
-The form allows users to easily add a book to the library which will then be visible on the  books page for the users to browse. Users are also able to edit and delete a book they themselves have added giving them full control over their own contributions.
+#### About me:
 
-
-#### Book Details:
-
-![book detail](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/e88f0274-670b-4a76-8ef8-7c44a5f440a7)
-
-Users are able to find more information about the book they are interested in. The book details include the title, author and a brief summary of the book along with an book cover image. This provides users with sufficient information about the book.
+![add a book](###)
 
 #### Footer:
 
-![footer](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/fde543e6-0ee2-4c17-b8a8-436d4e824f4d)
+![footer](###)
 
-Links in the footer redirect to respective social media pages. 
-It allows users to stay connected with the The Book Booth on social media platforms, keeping them informed about any changes that may occur over time.
+Links in the footer redirect to respective social media pages.
 
 
 # Future Features:
@@ -143,7 +131,7 @@ It allows users to stay connected with the The Book Booth on social media platfo
 
 Database Design:
 
-![ERD](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/6db92c85-0b4c-485c-b60d-709df3fb963e)
+![ERD](https://github.com/safihasan/food_blog2/blob/main/static/images/DB%20Schema%20Food%20Fusion.png)
 
 
 Entity Relationship Diagrams (ERD) help the developer to make connections between databases and information. Creating an ERD helped me understand how the tables relate to one another. I used LucidChart to create the diagram and the arrow represent how the data fields relate to one another.
@@ -152,42 +140,46 @@ Entity Relationship Diagrams (ERD) help the developer to make connections betwee
 ## Data Models:
 
 
-| Book   |            |   |
+| User   |            |   |
 |----------|:-------------:|------:|
-| Title |  CharField |  |
-| Author |  CharField   |   FK |
-| ISBN | CharField |     |
-| User |  CharField | FK |
-| Genre |  CharField   |   FK |
-| Language | CharField |  FK   |
-| Summary |  TextField |  |
+| ID |  Integer | PK |
+| Username |  String   |  Unique |
+| Email | String | Unique  |
+| password |  String | |
+| first_name |  String   |    |
+| last_name | String   |    |
+| date_joined |  Date/Time | Auto insert current date |
+| last_login |  Date/Time | Auto update on login |
 
 
 
-| Genre   |            |   |
+| Blog  |            |   |
 |----------|:-------------:|------:|
-| Category |  CharField | FK |
+| blog_id |  Integer | PK |
+| title |  String |  |
+| author_id |  Integer | FK to User ID |
+| created_at |  Date/Time | Auto insert current date |
+| updated_at |  Date/Time | Auto update on edit |
 
 
-| Language   |            |   |
+| Comment   |            |   |
 |----------|:-------------:|------:|
-| Language |  CharField | FK  |
-
-| Author  |            |   |
-|----------|:-------------:|------:|
-| Name |  CharField | FK  |
+| comment_id |  Integer | PK  |
+| blog_id |  Integer | FK to blog_id  |
+| author_id |  Integer | FK to author_id  |
+| created_at |  Date/Time | Auto insert current date |
 
 ## User Flow Chart:
-![The Book Booth Flowchart](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/7727f007-8e2e-45fc-b955-57e2d50d1e98)
+![Food Fusion Flowchart](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/7727f007-8e2e-45fc-b955-57e2d50d1e98)
 
-The Flowchart served as an efficient way to make important decisions when creating the app. It helped me narrow down which decisions were important for the users and admin as well as establishing the appropriate authentication. It also helped me decide which features were the most important i.e adding a book and viewing a list of books that are available to borrow at The Book Booth Library.
+The user flow chart for the Food Fusion website provides a clear, visual representation of the user's journey, helping to identify key features, plan a seamless user experience, and spot potential issues. It serves as an effective communication tool among stakeholders, guides the development process, aids in testing and validation, and supports user-centric design. By outlining each step of user interaction, the flow chart ensures comprehensive coverage of functionalities and assists in continuous improvement and iteration, ultimately ensuring a cohesive and user-friendly experience.
 
 # Validation
 ## HTML
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2F) | ![home page validate](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/2ba0ff6e-6159-47e9-ad4c-2fe954589ca8) | Pass: button is a descendant of a tag |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2F) | ![home page validate](https://github.com/safihasan/food_blog2/blob/main/static/images/2181DB5B-00B2-450B-88C0-5FB6E9341865.jpeg) | Pass: Some errors but don't apply since it's base.html |
 | Books | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Fbooks%2Fbooks%2F) | ![Validate Books page](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/b7c018c4-a68a-43ee-97c5-778658bbf705) | Pass: No Errors |
 | Add a Book | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Fbooks%2Fadd_book%2F) | ![validate adda book page](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/95eb01b9-22fc-43c4-93de-0ebcd1263467) | Pass: No Errors |
 | Sign In| [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Faccounts%2Flogin%2F) | ![validate sign in](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/872629ce-e50d-4870-845b-ed699f9178dc) | Pass: No Errors |
@@ -199,7 +191,7 @@ The Flowchart served as an efficient way to make important decisions when creati
  
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=enhttps://jigsaw.w3.org/css-validator/validator) | ![validate css](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/200fc160-1092-4cd0-bba4-2ab1a721eb72) | Pass: No Errors |
+| style.css | [Jigsaw](###) | ![validate css](https://github.com/safihasan/food_blog2/blob/main/static/images/6018DAAF-FF41-4EB3-9508-9322ADBE5408.jpeg) | Pass: No Errors |
 
 ## Python
 
