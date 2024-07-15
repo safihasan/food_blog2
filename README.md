@@ -1,7 +1,7 @@
 # Food Fusion Blog
 
 
-![Beige Brown Aesthetic Save The Date Editable Mockup Instagram Post (1)](###)
+![Beige Brown Aesthetic Save The Date Editable Mockup Instagram Post (1)](https://github.com/safihasan/food_blog2/blob/main/static/images/82600DA0-9AEB-43C8-B96B-ADAE2A9F13F4.jpeg)
 
 
 Welcome to Food Fusion! This is a Django-based blog application where food enthusiasts can share their culinary creations and discover new recipes. Users can submit their own food blogs, explore others' delicious posts, and engage with a community of food lovers. Whether you're a seasoned chef or a home cook, Food Fusion is the perfect platform to showcase your passion for food. Join us and start sharing your food adventures today!
@@ -80,7 +80,7 @@ Goudy Book Letter 1911
 ### Home Page:
 
 #### Navbar:
-![home](###)
+![home](https://github.com/safihasan/food_blog2/blob/main/static/images/DBA9EF42-6351-4EB6-AF21-99EAC2A0B221.jpeg)
 
 The landing page provides an introduction to the website with a call to action button encouraging new users to sign up. Signing up and logging in allows them access to view blogs written by other bloggers and comment on them. It also allows them to post their own food blog. The navigation bar is valuable for users as it provides quick and easy access to important sections of the website. The navigation bar includes links to Home, blogs, sign up, Register/Logout and Sign In.
 
@@ -89,29 +89,23 @@ The landing page provides an introduction to the website with a call to action b
 
 Registration allows users to view the blogs posted by them as well as by other bloggers. It allows them to add a blog as well as edit and delete their addition to ensure the food blog is updated regularly. 
 
-![signup](###)
+![signup](https://github.com/safihasan/food_blog2/blob/main/static/images/E9282633-D116-48F2-A887-3AAA1BE2F7CD.jpeg)
 
 
 
 #### Sign In:
 
-![sign-in](###)
+![sign-in](https://github.com/safihasan/food_blog2/blob/main/static/images/8102319B-E211-4656-894C-F40471E792EE.jpeg)
 
 
 #### Blogs:
 
-![books](###)
+![blogs](https://github.com/safihasan/food_blog2/blob/main/static/images/8102319B-E211-4656-894C-F40471E792EE.jpeg)
 
 
 #### About me:
 
-![add a book](###)
-
-#### Footer:
-
-![footer](###)
-
-Links in the footer redirect to respective social media pages.
+![collaborate](https://github.com/safihasan/food_blog2/blob/main/static/images/BD6130A2-B2B6-4743-905F-16F170B531BB.jpeg)
 
 
 # Future Features:
@@ -175,7 +169,7 @@ The user flow chart for the Food Fusion website provides a clear, visual represe
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2F) | ![home page validate](https://github.com/safihasan/food_blog2/blob/main/static/images/2181DB5B-00B2-450B-88C0-5FB6E9341865.jpeg) | Pass: Some errors but don't apply since it's base.html |
+| Home | [W3C](###) | ![home page validate](https://github.com/safihasan/food_blog2/blob/main/static/images/2181DB5B-00B2-450B-88C0-5FB6E9341865.jpeg) | Pass: Some errors but don't apply since it's base.html |
 | Books | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Fbooks%2Fbooks%2F) | ![Validate Books page](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/b7c018c4-a68a-43ee-97c5-778658bbf705) | Pass: No Errors |
 | Add a Book | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Fbooks%2Fadd_book%2F) | ![validate adda book page](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/95eb01b9-22fc-43c4-93de-0ebcd1263467) | Pass: No Errors |
 | Sign In| [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Faccounts%2Flogin%2F) | ![validate sign in](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/872629ce-e50d-4870-845b-ed699f9178dc) | Pass: No Errors |
@@ -223,12 +217,12 @@ Laptops:
 
 * Google Chrome
 
-![chrome](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/545ba4e5-c7bc-4fd8-8660-1444dcb3be2a)
+![chrome](https://github.com/safihasan/food_blog2/blob/main/static/images/F98BDF95-BE30-4262-B873-6E098138C367.jpeg)
 
 
-* Microsoft Edge
+* Safari
 
-![microsoft edge](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/1570a9cd-6591-45db-840b-ecbe7f7aeb5b)
+![microsoft edge](https://github.com/safihasan/food_blog2/blob/main/static/images/74EABFE6-339A-46A1-9241-57274E73DBDE.jpeg)
 
 
 I can confirm that the site is responsive and looks as expected good on different screen sizes.
@@ -236,18 +230,14 @@ I can confirm that the site is responsive and looks as expected good on differen
 
 Mobile devices:
 
-![Screenshot_20231207-234024](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/0f0b0d7d-a72f-43a4-8a57-bc1cf02a1367)
+![Screenshot_20231207-234024](https://github.com/safihasan/food_blog2/blob/main/static/images/2FFC08BB-BA8E-41F1-B74E-AA4270059A4B.jpeg)
 
-![Screenshot_20231207-234033](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/4c3cc202-b8f6-4f9d-b1bd-cf57c911db65)
+![Screenshot_20231207-234033](https://github.com/safihasan/food_blog2/blob/main/static/images/4BC34382-83F6-43C5-9476-0587610232DB.jpeg)
 
-![Screenshot_20231207-234013](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/39989e07-4e8d-4faf-8b57-e11686792b38)
+![Screenshot_20231207-234013](https://github.com/safihasan/food_blog2/blob/main/static/images/A656BFBF-FCC9-4D9F-B0F0-FD3D0B8A6484.jpeg)
 
 
-![0](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/211095bf-ffac-42ca-b1c8-2a45d8444038)
-
-![Screenshot_20231207-234117 (1)](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/e52d022b-d3fb-4f6c-8fcb-092386ce566b)
-
-![Screenshot_20231208-000014](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/0cd224f9-b46e-4db9-9260-999cc63fff90)
+![0](https://github.com/safihasan/food_blog2/blob/main/static/images/645C900E-7468-4863-B810-BF54AA94D705.jpeg)
 
 
 
@@ -256,17 +246,11 @@ Mobile devices:
 Tablet Devices:
 
 
-![homepage](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/5e6eb5c7-4aba-434c-8ed8-8bfd56632f8a)
+![homepage](https://github.com/safihasan/food_blog2/blob/main/static/images/0691C149-6AFB-4003-8618-9DE2380DA4D6.jpeg)
 
-![signup tablet](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/c5f5a237-83ee-4ef3-b9b0-444f648ca225)
+![signup tablet](https://github.com/safihasan/food_blog2/blob/main/static/images/8239F6CF-150D-4384-B665-BB6B51DA2A71.jpeg)
 
-![sign in tablet](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/9ac1d08b-d4b8-4aa5-a65b-e46040f3b60b)
-
-![books tablet](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/a9c42d34-a49a-48ed-97ba-660c02de3543)
-
-![tabletadd](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/b516d61d-6e21-460a-b7f4-5b18abf41d00)
-
-![bookdetails tablet](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/17a0f099-ae15-4b8a-887b-254beac2dbb0)
+![sign in tablet](https://github.com/safihasan/food_blog2/blob/main/static/images/DD514EC1-67A0-4C29-848C-6AF9D5A01A78.jpeg)
 
 
 
@@ -283,26 +267,20 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 Home
 
-![homeaudit](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/5fa9bac2-d4bf-47fe-bb4a-50b3b0c4938b)
+![homeaudit](https://github.com/safihasan/food_blog2/blob/main/static/images/FCD7DDF1-37A4-465B-85E2-FCBDB94AF9EC_4_5005_c.jpeg)
 
-Books 
+About
 
-![auditbooks](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/d6401b01-e4d5-4ed1-b8e9-ff6d5eeb4bd9)
+![auditbooks](https://github.com/safihasan/food_blog2/blob/main/static/images/43BA0444-EEA5-4B3E-AE38-10E042A615FF_4_5005_c.jpeg)
 
-Add a book 
-![audit add book](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/e429ee62-ecbe-4b2f-8521-28da15773a46)
 
 On a mobile device:
 
 Home 
-![audit home mobile ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/348889e3-8c4e-41d4-b1c6-2c974780e23b)
+![audit home mobile ](https://github.com/safihasan/food_blog2/blob/main/static/images/FCD7DDF1-37A4-465B-85E2-FCBDB94AF9EC_4_5005_c.jpeg)
 
-Books
-![auditbooks](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/fad662af-54da-45d0-b381-c0d70955e4e4)
-
-Add a book 
-![audit addbookmobile](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/634965ca-1b9d-4aa1-bd17-bda89f9fbafe)
-
+About
+![auditbooks](https://github.com/safihasan/food_blog2/blob/main/static/images/43BA0444-EEA5-4B3E-AE38-10E042A615FF_4_5005_c.jpeg)
 
 ## Links
 
@@ -310,8 +288,7 @@ Add a book
 | ------- | ---------------- | ----- |
 | Logo | Navigates to the home page when clicked | Pass |
 | Home | Navigates to the home page when clicked | Pass |
-| Blogs | Navigates to a blogs list  page when clicked | Pass |
-| Add a Blog | Navigates to a form to add a blog when clicked | Pass |
+| Blogs | Navigates to a blogs list page when clicked | Pass |
 | Register | Navigates to a registration form when clicked | Pass |
 | Log in | Navigates to a screen where users can log in when clicked | Pass |
 | Logout | Navigates to a page confirming for the user to log out | Pass |
@@ -321,18 +298,16 @@ Add a book
 
 | Feature | Expected Outcome | Grade | Screenshots |
 | ------- | ---------------- | ----- | --------- |
-| Modal | A message will appear informing the user of a successful action | Pass | ![modal sign out ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/9e8658e8-f751-4cdf-be3d-ca19ad6c47b2)
-| User logged in | Text displays the user logged in with their username | Pass | ![modal sign in name](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/cc4a71db-9962-49c1-b4b6-563000687ad7)
-| View blogs | Users can see available books which have been added | Pass | ![testing blogs](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/01cc3a5b-db46-4742-a8e1-cf715d78c89b)
-| Add a blog | Add a book to the book collection that will be available to borrow | Pass | ![addblog](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/82133f44-d43a-4f40-863a-f4e8970057aa)
-| Admin has access to crud functionality of all additions | Admin can edit or delete any book addition | Pass | ![admin testing](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/72df0b87-6d4f-4659-9d4f-5e986f88e16c)
-| Edit a blog | A user can edit the details on the blog that they have addded. It will update their addition on the blogs page | Pass | ![edit book ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/79f6de7e-fd14-4c34-a474-483b7cd5285f)
-| Delete a blog | A user who added a blog OR an admin can delete a blog. It will then be deleted from the DB | Pass | ![delete book](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/88275723-e875-404a-b96f-58bac0a4907a)
-| Registration | New users can access a registration form from the "Register" link | Pass | ![testing sign up](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/e9e6c4e1-c90a-4854-a11c-014a8fc80043)
-| Log in | Users can log in using a form after clicking "Log in" | Pass | ![sign in testing ](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/3fafee34-e6d6-4162-8989-faa78e1bf355)
-| Log out | Users get logged out after clicking "Log out" | Pass | ![testing sign out](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/d7d377aa-fc2d-4025-a73e-22d2d81c622a)
-| Footer | A footer displays social information | Pass | ![footer](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/0879fada-18a4-4363-8257-0af0061cf79f)
-| Social links work | The social links will navigate to a new page when they're clicked. They will open in a new tab | Pass | ![footer](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/0879fada-18a4-4363-8257-0af0061cf79f)
+| Modal | A message will appear informing the user of a successful action | Pass | ![modal sign out ](https://github.com/safihasan/food_blog2/blob/main/static/images/D2A5AF47-8E08-4375-9EAB-A8D6861A4D52.jpeg)
+| User logged in | Text displays the user logged in with their username | Pass | ![modal sign in name](https://github.com/safihasan/food_blog2/blob/main/static/images/C0B5493F-8CCC-46D5-90F6-D385F565716C.jpeg)
+| View blogs | Users can see available blogs which have been added | Pass | ![testing blogs](https://github.com/safihasan/food_blog2/blob/main/static/images/0691C149-6AFB-4003-8618-9DE2380DA4D6.jpeg)
+| Add a blog | Add a blog for users to view, interact and comment. | Pass | ![addblog](https://github.com/safihasan/food_blog2/blob/main/static/images/7E62B367-6076-42F7-9079-E4AD4E04A0B6.jpeg)
+| Admin has access to crud functionality of all additions | Admin can edit or delete any book addition | Pass | ![admin testing](https://github.com/safihasan/food_blog2/blob/main/static/images/6CAF2617-CEEE-413D-ACCA-29F66310593A.jpeg)
+| Edit a blog | A user can edit the details on the blog that they have addded. It will update their addition on the blogs page | Pass | ![edit blog ](https://github.com/safihasan/food_blog2/blob/main/static/images/D41266C9-5DB3-40C0-B74E-CAB5866BD859.jpeg)
+| Delete a blog | A user who added a blog OR an admin can delete a blog. It will then be deleted from the DB | Pass | ![delete book](https://github.com/safihasan/food_blog2/blob/main/static/images/8E4D8BAF-3E18-4A07-8935-CB0FF00A1B24.jpeg)
+| Registration | New users can access a registration form from the "Register" link | Pass | ![testing sign up](https://github.com/safihasan/food_blog2/blob/main/static/images/8239F6CF-150D-4384-B665-BB6B51DA2A71.jpeg)
+| Log in | Users can log in using a form after clicking "Log in" | Pass | ![sign in testing ](https://github.com/safihasan/food_blog2/blob/main/static/images/8102319B-E211-4656-894C-F40471E792EE.jpeg)
+| Log out | Users get logged out after clicking "Log out" | Pass | ![testing sign out](https://github.com/safihasan/food_blog2/blob/main/static/images/8918FC1C-D513-4157-A510-9138BBD02D58.jpeg)
 
 
 # Tools and Technologies Used:
@@ -363,16 +338,15 @@ I used the steps used when deploying our django blog to deploy this application.
 
 # Bugs
 
-All the bugs that occured during the creation of this application have been resolved. There is a section of the application which allows you to reset your password that needs to be implemented, however they were not within the scope of this particular project and will be addressed in the near future along with the other future features.
-
+All the bugs that occured during the creation of this application have been resolved. There were issues in deployment which were linked to database but these issues were timely resolved.
 
 # Credit: 
 
-* I used the django blog resources provided on the LMS.
+* I used the django blog resources provided on the LMS, for design and code.
 
 * Stack Overflow was used to solve any smaller bugs and further clarification on errors I was receiving in the terminal.
 
-* I used this site to generate a persona and created user stories: https://founderpal.ai/user-persona-generator
+* I used chatgpt to generate a persona and created user stories.
 
 * A special thanks to all the other indivudals in our cohort for their continuous support throughout the course.
 
