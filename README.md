@@ -1,7 +1,7 @@
 # Food Fusion Blog
 
 
-![Beige Brown Aesthetic Save The Date Editable Mockup Instagram Post (1)](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/43d06fb1-1dd1-4b75-8644-c8479f971614)
+![Beige Brown Aesthetic Save The Date Editable Mockup Instagram Post (1)](###)
 
 
 Welcome to Food Fusion! This is a Django-based blog application where food enthusiasts can share their culinary creations and discover new recipes. Users can submit their own food blogs, explore others' delicious posts, and engage with a community of food lovers. Whether you're a seasoned chef or a home cook, Food Fusion is the perfect platform to showcase your passion for food. Join us and start sharing your food adventures today!
@@ -41,17 +41,13 @@ Gordon Ramsay is a renowned chef and television personality known for his culina
 
 ## Wireframe & Initial Design:
 ### Home Page
-![1](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/a17458a2-fd0b-45cb-af44-387ed524fef6)
+![1](###)
 
-### (Logged in) Browse books
+### (Logged in) Blogs
 ![1](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/a4c56a06-3692-467d-813a-ba3797d3087c)
 
-### Add a Book
+### Add a Blog
 ![Add a book wireframe](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/c0379553-0906-4d77-aca6-beb8fc6834d9)
-
-### Book Detail Page
-
-![Book Details Wireframe](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/467fa65e-eb66-4b21-94af-f9090b6a54ab)
 
 ## Agile:
 This project was created using Agile principles via a projectboard on Github. This is the first time I have implemented Agile as an individual developer. However, creating user stories and identifying accepterance criteria acted as a roadmap to target the various features and functionalities of the application. It helped me stay on track and reduced distractions.
@@ -170,7 +166,7 @@ Entity Relationship Diagrams (ERD) help the developer to make connections betwee
 | created_at |  Date/Time | Auto insert current date |
 
 ## User Flow Chart:
-![Food Fusion Flowchart](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/7727f007-8e2e-45fc-b955-57e2d50d1e98)
+![Food Fusion Flowchart](###)
 
 The user flow chart for the Food Fusion website provides a clear, visual representation of the user's journey, helping to identify key features, plan a seamless user experience, and spot potential issues. It serves as an effective communication tool among stakeholders, guides the development process, aids in testing and validation, and supports user-centric design. By outlining each step of user interaction, the flow chart ensures comprehensive coverage of functionalities and assists in continuous improvement and iteration, ultimately ensuring a cohesive and user-friendly experience.
 
@@ -372,7 +368,7 @@ All the bugs that occured during the creation of this application have been reso
 
 # Credit: 
 
-* Although I used the django blog resources provided on the LMS.
+* I used the django blog resources provided on the LMS.
 
 * Stack Overflow was used to solve any smaller bugs and further clarification on errors I was receiving in the terminal.
 
