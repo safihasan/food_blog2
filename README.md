@@ -160,7 +160,7 @@ Entity Relationship Diagrams (ERD) help the developer to make connections betwee
 | created_at |  Date/Time | Auto insert current date |
 
 ## User Flow Chart:
-![Food Fusion Flowchart](###)
+![Food Fusion Flowchart](https://github.com/safihasan/food_blog2/blob/main/static/images/User%20flow%20chart.png)
 
 The user flow chart for the Food Fusion website provides a clear, visual representation of the user's journey, helping to identify key features, plan a seamless user experience, and spot potential issues. It serves as an effective communication tool among stakeholders, guides the development process, aids in testing and validation, and supports user-centric design. By outlining each step of user interaction, the flow chart ensures comprehensive coverage of functionalities and assists in continuous improvement and iteration, ultimately ensuring a cohesive and user-friendly experience.
 
