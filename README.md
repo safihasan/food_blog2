@@ -217,7 +217,7 @@ Laptops:
 * Lenovo Thinkpad 14" screen
 
  Mobile Devices:
-* Google Pixel 4a
+* Iphone 14 pro max
 
  * Browser Compatibility:
  
