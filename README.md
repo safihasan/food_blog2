@@ -213,8 +213,8 @@ Full testing was performed on the following devices:
 
 Laptops:
 
-* Macbook Air 2018 13.3-inch screen
-* Lenovo Thinkpad 14" screen
+* Macbook Air 2020 M1 13.3-inch screen
+* Dell Inspiron 14
 
  Mobile Devices:
 * Iphone 14 pro max
