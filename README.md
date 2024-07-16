@@ -362,7 +362,7 @@ All the bugs that occured during the creation of this application have been reso
 
 * Font Awesome was used for icons and the fonts used were derived from Google Fonts.
 
-* Flowcharts were created using Lucid charts. 
+* Flowcharts and database schema diagrams were created using Lucid charts. 
 
 * Wireframes were created using Balsamiq. 
 
