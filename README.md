@@ -65,20 +65,22 @@ This project was created using Agile principles via a projectboard on Github. Th
 
 ## Colour scheme:
 
-#fafafa - Header
+#F9FAFC - Header
 
-Dark Green - Buttons
+#188181 - Buttons
 
-#809977 - Footer
+#445261 - Footer
 
 The colours were selected with the intention of complementing the food fusion blog and the idea was to ensure the image was appreciated.
 
 ## Typography:
  The following fonts were chosen for a clean and modern look that is both readable and minimal.
 
-Varta
+Segoe UI
 
-Goudy Book Letter 1911
+Times New Roman
+
+Calibri (Body)
 
 
 ## Priority Features:
