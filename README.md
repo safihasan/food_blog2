@@ -88,7 +88,7 @@ Goudy Book Letter 1911
 #### Navbar:
 ![home](https://github.com/safihasan/food_blog2/blob/main/static/images/DBA9EF42-6351-4EB6-AF21-99EAC2A0B221.jpeg)
 
-The landing page provides an introduction to the website with a call to action button encouraging new users to sign up. Signing up and logging in allows them access to view blogs written by other bloggers and comment on them. It also allows them to post their own food blog. The navigation bar is valuable for users as it provides quick and easy access to important sections of the website. The navigation bar includes links to Home, blogs, sign up, Register/Logout and Sign In.
+The landing page provides an introduction to the website with a call to action button encouraging new users to sign up. Signing up and logging in allows them access to view blogs written by other bloggers and comment on them. It also allows them to post their own food blog, once the page admin has granted them editing access. The navigation bar is valuable for users as it provides quick and easy access to important sections of the website. The navigation bar includes links to Home, blogs, sign up, Register/Logout and Sign In.
 
 #### Blog view:
 
