@@ -41,13 +41,19 @@ Gordon Ramsay is a renowned chef and television personality known for his culina
 
 ## Wireframe & Initial Design:
 ### Home Page
-![1](###)
+![1](https://github.com/safihasan/food_blog2/blob/main/static/wireframes/Register%20-%20Desktop.png)
 
-### (Logged in) Blogs
-![1](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/a4c56a06-3692-467d-813a-ba3797d3087c)
+### Blog view
+![1](https://github.com/safihasan/food_blog2/blob/main/static/wireframes/Blog%20view%20-%20Desktop.png)
 
-### Add a Blog
-![Add a book wireframe](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/c0379553-0906-4d77-aca6-beb8fc6834d9)
+### About
+![1](https://github.com/safihasan/food_blog2/blob/main/static/wireframes/About%20-%20Desktop.png)
+
+### Register
+![Add a register wireframe](https://github.com/safihasan/food_blog2/blob/main/static/wireframes/Register%20-%20Desktop.png)
+
+### Sign in
+![Add a sign in wireframe](https://github.com/safihasan/food_blog2/blob/main/static/wireframes/Sign%20in%20-%20Desktop.png)
 
 ## Agile:
 This project was created using Agile principles via a projectboard on Github. This is the first time I have implemented Agile as an individual developer. However, creating user stories and identifying accepterance criteria acted as a roadmap to target the various features and functionalities of the application. It helped me stay on track and reduced distractions.
@@ -169,11 +175,10 @@ The user flow chart for the Food Fusion website provides a clear, visual represe
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](###) | ![home page validate](https://github.com/safihasan/food_blog2/blob/main/static/images/2181DB5B-00B2-450B-88C0-5FB6E9341865.jpeg) | Pass: Some errors but don't apply since it's base.html |
-| Books | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Fbooks%2Fbooks%2F) | ![Validate Books page](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/b7c018c4-a68a-43ee-97c5-778658bbf705) | Pass: No Errors |
-| Add a Book | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Fbooks%2Fadd_book%2F) | ![validate adda book page](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/95eb01b9-22fc-43c4-93de-0ebcd1263467) | Pass: No Errors |
-| Sign In| [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Faccounts%2Flogin%2F) | ![validate sign in](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/872629ce-e50d-4870-845b-ed699f9178dc) | Pass: No Errors |
-| Register| [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebookbooth1-559d9131718c.herokuapp.com%2Faccounts%2Fsignup%2F) | ![validate sign up](https://github.com/hiboibrahim/thebookbooth1/assets/144109298/c5e042af-b3d5-4718-bc50-ef319ba1a1c3) | unclosed elements main and div |
+| Home | [W3C](###) | ![home page validate](https://github.com/safihasan/food_blog2/blob/main/static/images/CAF0E0C4-4D1E-420B-BB55-5D742ED660A2.jpeg) | Pass: Some neglible errors |
+| About me | [W3C](###) | ![validate adda book page](https://github.com/safihasan/food_blog2/blob/main/static/images/D38AB13A-B2B6-410D-AF5F-4183F8A51B18.jpeg) | Pass: Some neglible errors |
+| Register| [W3C](###) | ![validate register](https://github.com/safihasan/food_blog2/blob/main/static/images/421D5066-2CC7-4FFB-9480-AC7592432F9E.jpeg) | Pass: Some neglible errors |
+| Sign in | [W3C](###) | ![validate sign in](https://github.com/safihasan/food_blog2/blob/main/static/images/36AA4805-CD02-448C-9556-F3B6689E356F.jpeg) | Pass: No Errors |
 
  ## CSS
 
