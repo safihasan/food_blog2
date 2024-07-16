@@ -330,8 +330,8 @@ The technologies implemented in this application included HTML5, CSS, Bootstrap,
 * Postgres used as the DB.
 * Heroku used for hosting the deployed back-end site.
 * Cloudinary used for online static file storage.
-* Canva Utilized for collaborative design and prototyping(wireframes).
-
+* Balsamiq utilized for collaborative design and prototyping(wireframes).
+* Lucid chart utilized for Database Schema and User Flowchart diagrams.
 * Google and Stack Overflow utilized for general research or solving a bug, information gathering, and various online tools.
 
 
